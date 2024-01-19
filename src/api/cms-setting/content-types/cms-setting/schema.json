@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "cms_settings",
+  "info": {
+    "singularName": "cms-setting",
+    "pluralName": "cms-settings",
+    "displayName": "CMS Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string",
+      "required": true
+    },
+    "hero_subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "quotes": {
+      "type": "text",
+      "required": true
+    },
+    "link_maps": {
+      "type": "string",
+      "required": true
+    },
+    "footer_title": {
+      "type": "string",
+      "required": true
+    },
+    "footer_subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "link_instagram": {
+      "type": "string",
+      "required": true
+    },
+    "link_tiktok": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alternative_angkringans",
+  "info": {
+    "singularName": "alternative-angkringan",
+    "pluralName": "alternative-angkringans",
+    "displayName": "Alternative Angkringan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pict": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
